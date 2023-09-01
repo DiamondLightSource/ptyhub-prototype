@@ -1,0 +1,37 @@
+.text-input-dropdown-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.text-input-dropdown-row.text-input-dropdown-row--hidden {
+    display: none;
+}
+
+.text-input-dropdown-row__input-box {
+    background: none;
+    border: none;
+    outline: none;
+
+    padding: 4px;
+}
+
+.text-input-dropdown-row__button {
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    padding: 4px;
+}
+
+.text-input-dropdown-row__button--adder-row--no-change {
+    visibility: hidden;
+}
+
+
+.text-input-dropdown-row__button__icon {
+    width: 14px;
+    height: 14px;
+}

@@ -1,0 +1,7 @@
+.job-configuration-subsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}

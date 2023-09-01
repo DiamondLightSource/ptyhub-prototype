@@ -1,0 +1,20 @@
+.tree-navigator {
+    display: flex;
+    align-items: flex-start;
+
+    justify-content: flex-start;
+
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+
+    text-align: left;
+}
+
+.tree-navigator__path-input {
+    margin-bottom: 10px;
+}
+
+.tree-navigator__path-input.tree-navigator__path-input--invalid {
+    border: 1px solid #e74c3c;
+}

@@ -1,0 +1,17 @@
+.data-collection-label {
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+}
+
+.data-collection-label__decoration {
+    width: 5px;
+    height: 100%;
+    background-color: var(--light-gray);
+}
+
+.data-collection-label__data {
+    background-color: var(--lightest-gray);
+    margin-left: 5px;
+    padding: 3px;
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "dls",
+    "path": "ptyrex_dls_default_config.json"
+  },
+  {
+    "name": "e02",
+    "path": "ptyrex_e02_default_config.json"
+  },
+  {
+    "name": "I13-1",
+    "path": "ptyrex_i13-1_default_config.json"
+  }
+]

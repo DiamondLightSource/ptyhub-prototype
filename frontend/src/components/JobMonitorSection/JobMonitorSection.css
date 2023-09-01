@@ -1,0 +1,28 @@
+.job-monitor-section__job-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.job-monitor-section__job-table th, .job-monitor-section__job-table td {
+    padding: 3px;
+}
+
+.job-monitor-section__job-row--selected {
+    background-color: var(--lightest-gray);
+}
+
+.job-monitor-section__job-row:hover {
+    background-color: #ffcccc;
+}
+
+.job-monitor-section__job-row--selected:hover {
+    background-color: #ffb8b8;
+}
+
+.job-monitor-section__job-row {
+    border-bottom: thin solid var(--light-gray);
+}
+
+.job-monitor-section__job-row:first-of-type {
+    border-top: thin solid var(--dark-gray);
+}

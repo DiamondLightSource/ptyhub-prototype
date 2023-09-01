@@ -1,0 +1,13 @@
+.seperator {
+}
+
+.seperator--vertical {
+    margin: 0 5px;
+    width: 2px;
+    height: 20px;
+}
+
+.seperator--coloured {
+    margin: 0 10px;
+    background-color: var(--light-gray);
+}

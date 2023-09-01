@@ -1,0 +1,15 @@
+.custom-panel-resize-handle {
+    background-color: var(--light-gray);
+}
+
+.custom-panel-resize-handle--horizontal {
+    height: 3px;
+}
+
+.custom-panel-resize-handle--vertical {
+    width: 3px;
+}
+
+.custom-panel-resize-handle[data-resize-handle-active] {
+    background-color: var(--dark-gray);
+}

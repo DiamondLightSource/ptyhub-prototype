@@ -1,0 +1,35 @@
+.App {
+    text-align: center;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+:root {
+    --dls-dark-blue: #1C3F95;
+    --dls-light-blue: #A8D2EE;
+    --dls-light-blue-hover: #C7E0F4;
+    --green: #27AE60;
+    --red: #E74C3C;
+    --dark-gray: #ADAAAA;
+    --light-gray: #C0C0C0;
+    --lightest-gray: #F0F0F0;
+}

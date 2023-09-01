@@ -1,0 +1,14 @@
+.backend-file-viewer-modal-opener__form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.backend-file-viewer-modal-opener__button__image {
+    width: 20px;
+}
+
+.backend-file-viewer-modal-opener__input_box, .backend-file-viewer-modal-opener__button {
+    margin-left: 5px;
+}

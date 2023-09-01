@@ -1,0 +1,10 @@
+.find-on-sync-web-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.find-on-sync-web-form__input {
+    margin-right: 5px;
+}

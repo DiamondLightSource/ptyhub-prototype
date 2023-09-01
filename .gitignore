@@ -1,0 +1,5 @@
+.idea/
+__pycache__/
+openapi-typescript-codegen/
+k8s/ptyhub_secrets.json
+k8s/ptyhub_secrets.yaml

@@ -1,0 +1,22 @@
+.backend-file-viewer-modal__navbar {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.backend-file-viewer-modal__close {
+    margin-left: auto; /* Aligning close button to the right */
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-radius: 50%;
+    background-color: #e74c3c;
+    cursor: pointer;
+
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.backend-file-viewer-modal__close:hover {
+    background-color: #c0392b;
+}

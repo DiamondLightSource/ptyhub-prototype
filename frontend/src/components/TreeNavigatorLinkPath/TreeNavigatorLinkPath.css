@@ -1,0 +1,24 @@
+.tree-navigator-link-path {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto; /* We should be able to scroll along the path if it is super long */
+}
+
+.tree-navigator-link-path__element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tree-navigator-link-path__element__button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+    outline: none;
+}
+
+.tree-navigator-link-path__element__arrow {
+    margin: 0 2px;
+}

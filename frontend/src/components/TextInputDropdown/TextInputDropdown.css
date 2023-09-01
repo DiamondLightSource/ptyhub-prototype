@@ -1,0 +1,14 @@
+.text-input-dropdown {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.text-input-dropdown.text-input-dropdown--placeholder {
+    visibility: hidden;
+    position: relative;
+}

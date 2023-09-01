@@ -1,0 +1,11 @@
+.parameter-configuration-subsection-search-parameter-tree {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.parameter-configuration-subsection-search-parameter-tree__search {
+    margin: 10px 0;
+}

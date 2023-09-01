@@ -1,0 +1,82 @@
+{
+  "version": "1.0.0",
+  "previews": {
+    "root_test_param": {
+      "type": "graph",
+      "props": {
+        "data_from": ""
+      }
+    }
+  },
+  "root": {
+    "param_path": [],
+    "name": "Param tree",
+    "doc_string": "Some docstring for the root node",
+    "value": null,
+    "preview_key": "root_test_param",
+    "children": [
+      {
+        "param_path": [
+          "child1"
+        ],
+        "name": "Test empty subsection",
+        "doc_string": "I am a empty subsection",
+        "value": null,
+        "preview_key": null,
+        "children": []
+      },
+      {
+        "param_path": [
+          "child2"
+        ],
+        "name": "Test empty subsection",
+        "doc_string": "I am a empty subsection",
+        "value": null,
+        "preview_key": "inherit",
+        "children": [
+          {
+            "param_path": [
+              "child2",
+              "deep_child"
+            ],
+            "name": "Deep subsection",
+            "doc_string": "I am a deep subsection 🐠",
+            "value": null,
+            "preview_key": "inherit",
+            "children": [
+              {
+                "param_path": [
+                  "child2",
+                  "deep_child",
+                  "deep_value"
+                ],
+                "name": "I am a deep value",
+                "doc_string": "Hey! You found me!",
+                "value": {
+                  "type": "float",
+                  "default": 0.0
+                },
+                "preview_key": "inherit",
+                "children": []
+              }
+            ]
+          },
+          {
+            "param_path": [
+              "child2",
+              "value"
+            ],
+            "name": "Value here",
+            "doc_string": "I am a String",
+            "value": {
+              "type": "string",
+              "default": "Hello World"
+            },
+            "preview_key": "inherit",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+}

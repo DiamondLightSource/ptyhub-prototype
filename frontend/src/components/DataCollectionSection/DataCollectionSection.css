@@ -1,0 +1,34 @@
+.data-collection-section__labels {
+    display: flex;
+    flex-direction: row;
+}
+
+.data-collection-section__proc-jobs-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.data-collection-section__proc-jobs-table th, .data-colleciton-section__proc-jobs-table td {
+    padding: 3px;
+}
+
+.data-collection-section__proc-jobs-row--selected {
+    background-color: var(--lightest-gray);
+}
+
+.data-collection-section__proc-jobs-row:hover {
+    background-color: #ffcccc;
+}
+
+.data-collection-section__proc-jobs-row--selected:hover {
+    background-color: #ffb8b8;
+}
+
+.data-collection-section__proc-jobs-row {
+    border-bottom: thin solid var(--light-gray);
+}
+
+.data-collection-section__proc-jobs-row:first-of-type {
+    border-top: thin solid var(--dark-gray);
+}
+

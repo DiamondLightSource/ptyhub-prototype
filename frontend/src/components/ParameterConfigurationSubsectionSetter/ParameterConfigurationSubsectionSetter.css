@@ -1,0 +1,45 @@
+.parameter-configuration-subsection-setter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.parameter-configuration-subsection-setter > * {
+    margin: 0 10px;
+}
+
+.parameter-configuration-subsection-setter__title-value-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+.parameter-configuration-subsection-setter__title-value-wrapper__title {
+    margin: 0 5px 0 0;
+}
+
+.parameter-configuration-subsection-setter__markup {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.parameter-configuration-subsection-setter__markup > * {
+    margin: 0;
+}
+
+.parameter-configuration-subsection-setter__markup > *:not(:last-child) {
+    margin: 0 0 10px 0;
+}
+
+.parameter-configuration-subsection-setter__markup code {
+    font-family: monospace;
+    background-color: #e0dfdf;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 2px;
+    color: crimson;
+}

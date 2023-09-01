@@ -1,0 +1,30 @@
+.expandable-section__content.logs-section {
+    padding-top: 0;
+}
+
+.logs-section__toolbar-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.logs-section__terminal-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+
+    overflow: auto;
+
+    height: 400px;
+    padding: 10px;
+
+    background-color: black;
+}
+
+.logs-section__wrapper__terminal {
+    white-space: pre;
+    text-align: left;
+    color: #FFFF;
+    font-family: 'Courier New', monospace;
+}

@@ -1,0 +1,15 @@
+name: ptyhub
+channels:
+- conda-forge
+dependencies:
+- python=3.11
+- pip
+- numpy
+- fastapi
+- uvicorn
+- pyjwt
+- msgpack-python
+- python-multipart
+- pyyaml
+- python-dotenv
+- ispyb
