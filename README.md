@@ -1,4 +1,7 @@
-# PtyHub
+>[!NOTE]
+> This was an early prototype developed by [Thomas Milburn](https://github.com/thomas-milburn). The production version of **PtyHub** can be found at [https://github.com/DiamondLightSource/ptyhub](https://github.com/DiamondLightSource/ptyhub).
+
+# PtyHub Prototype
 
 A web-based [ptychography](https://en.wikipedia.org/wiki/Ptychography) configuration editor, job submitter, and reconstruction viewer.
 
